@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\宇哥的小小酱\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gulp-imagemin --dev
+
+PATH: 
+  D:\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\jre\bin;D:\git\Git\cmd;C:\Program Files\nodejs\;C:\Users\宇哥的小小酱\AppData\Local\Microsoft\WindowsApps;;D:\vscode\Microsoft VS Code\bin;D:\idea\IntelliJ IDEA Community Edition 2019.2.4\bin;;C:\Users\宇哥的小小酱\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, mkdir 'C:\Users\宇哥的小小酱\Desktop\小小的资料呀\小小的练习\music player\node_modules\gifsicle\node_modules'
+
+npm manifest: 
+  {
+    "name": "music-player",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "gulp-clean-css": "^4.3.0",
+      "gulp-connect": "^5.7.0",
+      "gulp-htmlclean": "^2.7.22",
+      "gulp-imagemin": "^7.1.0",
+      "gulp-less": "^4.0.1",
+      "gulp-rename": "^2.0.0",
+      "gulp-strip-debug": "^3.0.0",
+      "gulp-uglify": "^3.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
